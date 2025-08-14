@@ -1,0 +1,69 @@
+.book-wrap {
+    max-width: 680px;
+    margin: 32px auto;
+    padding: 0 20px;
+}
+
+.book-wrap h2 {
+    margin: 0 0 12px;
+}
+
+.book-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-controls input,
+.book-controls textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 12px;
+    border: 1px solid #f8fafc;
+    cursor: pointer;
+    background-color: #f8fafc;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(34, 204, 34);
+}
+
+.btn.refresh {
+    background-color: orange;
+}
+
+.btn + .btn {
+    margin-left: 10px;
+}
+
+.update.btn {
+    background-color: rgb(34, 204, 34);
+}
+
+.delete.btn {
+    background-color: rgb(235, 38, 38);
+}
+
+.book-list li {
+    border: 1px solid #eee;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+}
+
+.book-list li h4 {
+    margin: 0 0 8px;
+}
+
+.book-list li p {
+    margin: 6px 0;
+    color: #6d6d6d;
+}
+
+.book-list li p strong {
+    color: #333;
+}

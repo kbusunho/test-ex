@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Book from '../../backend/models/Book'
+import Book from './components/Book'
 
 function App() {
   const [count, setCount] = useState(0)
