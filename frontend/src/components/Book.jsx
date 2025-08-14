@@ -93,13 +93,13 @@ const Book = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           type="text"
-          placeholder='도서명을 입력하세요'
+          placeholder='도서명 (필수)'
         />
         <input
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
           type="text"
-          placeholder='작가명을 입력하세요'
+          placeholder='작가명 (필수)'
         />
         <textarea
           value={description}
